@@ -3,17 +3,19 @@
     <meta charset="utf-8" />
 
     <title>latlon.dev</title>
+    <link rel="icon" href="favicon.png">
     <meta name="description" content="latlondev" />
     <meta name="author" content="latlondev" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
     <style type="text/css">
       :root {
         --c1: #ef476fff;
-        --c2: #ffd166ff;
+        --c2: #DDC8C4; /*#ffd166ff;*/
         --c3: #06d6a0ff;
         --c4: #118ab2ff;
-        --c5: #073b4cff;
+        --c5: #222E50;/*#073b4cff;*/
         background-color: var(--c5);
+        color: var(--c2);
         text-align: center;
         font-family: "Open Sans";
         font-size: 16px;
@@ -34,7 +36,7 @@
         margin: 0;
         font-weight: 700;
       }
-      h5 {
+      .intro {
         font-size: clamp(0.8em, 0.5em + 1.5vw, 1.5em);
       }
       .c1 {
@@ -54,12 +56,12 @@
       }
       a {
         color: inherit;
-        text-decoration-thickness: 0.12em;
+        text-decoration-thickness: 0.1em;
       }
       svg {
         width: auto;
         height: 1.5em;
-        fill: var(--c4);
+        fill: var(--c2);
         padding-left: 0.5em;
         padding-right: 0.5em;
       }
@@ -70,14 +72,14 @@
 
   <body>
     <div class="center">
-      <h1 class="c3">
-        <span class="c1">latlon</span>.<span class="c2">dev</span>
+      <h1>
+        <span class="c4">lat</span><span class="c3">lon</span><span class="c1">.dev</span>
       </h1>
-      <h5 class="c4">
-        <strong>
+      <div class="intro">
+       
           <p>
-            Hi! I'm Johannes, <span class="c2">GIS developer</span> and
-            <span class="c1">spatial data analyst</span>.<br />
+            Hi! I'm Johannes, GIS developer vand
+            spatial data analyst.
             I love it when my code shapes spatial data into visually accessible
             information and insights.
           </p>
@@ -85,7 +87,7 @@
             I'm passionate about small scale community farming and a shaping a
             diverse and living landscape. Next to GIS projects I will be working
             as a farmer this season, mainly for a
-            <span class="c3">community supported agriculture</span> farm, the
+            community supported agriculture farm, the
             <a href="https://landgoeddebrouwketel.nl/zelfoogsttuin/"
               >Zelfoogstuin de Brouwketel</a
             >.
@@ -118,7 +120,7 @@
             </svg></a>
             </p>
           </p>
-        </strong>
+       
       </h5>
     </div>
   </body>
